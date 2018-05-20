@@ -1,0 +1,12 @@
+<?php
+
+$query_surveyor = mysqli_query($connect,"
+  SELECT 
+    nama
+      FROM 
+        t_responden
+            WHERE
+               id_responden='$id_responden'
+                  ");
+
+?>
